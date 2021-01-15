@@ -1,0 +1,173 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #000000;
+    color: #ffffff;
+}
+
+header {
+    border-bottom: 1px solid #e28f3d;
+    position: sticky;
+    top: 0;
+    background-color: black;
+}
+
+header .nav{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+}
+
+header .nav ul {
+    list-style: none;
+}
+
+nav .nav-left-section .icon a img {
+    width: 55px;
+    height: 39px;
+    border: 2px solid #e28f3d;
+    border-radius: 50px;
+    margin-left: 10px;
+}
+
+nav .nav-right-section {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+nav .nav-right-section li {
+    margin-right: 40px;
+}
+
+nav .nav-right-section li a {
+    font-size: 30px;
+}
+
+nav .nav-right-section li a:hover {
+    background-color: #e28f3d;
+}
+
+main .main-principal {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 80px;
+}
+
+main .main-principal .main-principal-title {
+    margin-left: 50px;
+}
+
+main .main-principal .main-principal-title div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+main .main-principal .main-principal-title h1 {
+    font-size: 60px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+main .main-principal .main-principal-title p {
+    font-size: 16px;
+    font-style: italic;
+}
+
+main .main-principal #img-div img {
+    border: 1px solid #e28f3d;
+    border-radius: 50px;
+    max-width: 100%;
+    height: auto;
+}
+
+main .main-principal #img-div img:hover {
+    border: 1px solid #e28f3d;
+    box-shadow: 1px 2px 2px white;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+main #tribute-info {
+    margin: 200px 80px 50px;
+    font-size: 18px;
+}
+
+main #tribute-info .article-life,
+main #tribute-info .article-works,
+main #tribute-info .article-legacy 
+{
+    border: 1px solid #e28f3d;
+    border-radius: 50px;
+    margin-bottom: 20px;
+    padding: 20px;
+    height: auto;
+}
+
+main #tribute-info .article-life:hover,
+main #tribute-info .article-works:hover,
+main #tribute-info .article-legacy:hover {
+    box-shadow: 2px 4px 4px #e28f3d;
+    cursor: pointer;
+}
+
+main #tribute-info h2 {
+    border-bottom: 1px solid #e28f3d;
+    padding-bottom: 5px;
+    scroll-margin-top: 140px;
+}
+
+
+main #tribute-info .article-works div {
+    width: auto;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+} 
+
+main #tribute-info .article-works div div {
+    height: 350px;
+    width: 410px;
+    border: 1px solid #e28f3d;
+    border-radius: 50px;
+}
+
+main #tribute-info .article-works div div:hover {
+    box-shadow: 2px 4px 4px #ffffff;
+    background-color: #e28f3d; 
+}
+
+main #tribute-info .article-works div div h3 {
+    width: auto;
+    height: auto;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+main #tribute-info .article-works div div ul {
+    width: auto;
+    height: 300px;
+    margin-top: 0px;
+    margin-bottom: 40px;
+}
+
+main #tribute-info .article-works div .novels,
+main #tribute-info .article-works div .novellas {
+    height: 250px;
+}
